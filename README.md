@@ -6,4 +6,4 @@ Training set is: (41109, 3073)
 
 
 Test set is: (13330, 3073)
-![Alt text](images/test_classbreakdown.png?raw=true "Test Set Class Breakdown")
+![Alt text](images/testing_classbreakdown.png?raw=true "Test Set Class Breakdown")
