@@ -48,4 +48,5 @@ We used a model, LeNet-5, which was successful in classifying the German traffic
 We also tried a general fully connected neural network on the 3-class dataset. FC_NN_classifier.py refers to the fully connected (FC) neural network (NN) which was developed to classify between 3 classes (2 traffic signs + a "not-a-sign" class consisting of various CIFAR images). tf_utils.py contains the mini batch generator and convert-to-one-hot functions used in FC_NN_classifier.py.
 
 TSR Models:
+
 Using LeNet-5 and various regularization methods, we were able to classify all 43 classes in the German Traffic sign dataset with a validation accuracy of 95.2% and test accuracy of 91.2%.  These numbers coud be improved, but were high enough to serve its purpose as the target classifier of our Attack-GAN network.
